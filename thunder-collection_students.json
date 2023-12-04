@@ -1,0 +1,159 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "students",
+    "dateExported": "2023-12-04T11:17:34.376Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "52a88459-3b08-41a1-a4e8-625cbf98a400",
+            "colId": "de2a0164-0620-4bd0-a9de-b6af67eadb75",
+            "containerId": "",
+            "name": "Create",
+            "url": "http://127.0.0.1:8000/api/student",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-04T10:21:09.746Z",
+            "modified": "2023-12-04T11:00:40.391Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Béla kutya\",\n  \"email\" : \"geza@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "01a9f35e-4730-4b96-b4b1-fdc19aec108c",
+            "colId": "de2a0164-0620-4bd0-a9de-b6af67eadb75",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://127.0.0.1:8000/api/student/21",
+            "method": "DELETE",
+            "sortNum": 15000,
+            "created": "2023-12-04T10:54:11.049Z",
+            "modified": "2023-12-04T11:09:01.490Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9f86f83d-2a28-4ae2-be72-ffe38cb7755a",
+            "colId": "de2a0164-0620-4bd0-a9de-b6af67eadb75",
+            "containerId": "",
+            "name": "search",
+            "url": "http://127.0.0.1:8000/api/student",
+            "method": "GET",
+            "sortNum": 17500,
+            "created": "2023-12-04T11:08:45.768Z",
+            "modified": "2023-12-04T11:08:45.768Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8481f17f-5f46-407b-9172-dd607612a844",
+            "colId": "de2a0164-0620-4bd0-a9de-b6af67eadb75",
+            "containerId": "",
+            "name": "update",
+            "url": "http://127.0.0.1:8000/api/student/2",
+            "method": "PATCH",
+            "sortNum": 18750,
+            "created": "2023-12-04T11:12:41.912Z",
+            "modified": "2023-12-04T11:14:47.168Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Emmet Rolfson dzsipszi\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "40f5b94a-ab1b-433c-941e-15c82b8a51ca",
+            "colId": "de2a0164-0620-4bd0-a9de-b6af67eadb75",
+            "containerId": "",
+            "name": "search",
+            "url": "http://127.0.0.1:8000/api/student/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-04T10:27:39.890Z",
+            "modified": "2023-12-04T11:13:11.850Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
